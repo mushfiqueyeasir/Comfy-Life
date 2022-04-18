@@ -1,0 +1,15 @@
+h1 {
+    font-size: 42px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+}
+
+.bg {
+    background-color: #F8F8F8;
+}
+
+@media only screen and (max-width: 600px) {
+    h1 {
+        font-size: 26px;
+    }
+}

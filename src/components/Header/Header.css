@@ -1,0 +1,27 @@
+.nav-link {
+    --bs-text-opacity: 1;
+    color: white;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: white;
+}
+
+.current {
+    color: #06a595 !important;
+    font-weight: 700;
+}
+
+.w-26 {
+    width: 25% !important;
+}
+
+@media only screen and (max-width: 600px) {
+    .w-26 {
+        width: 50% !important;
+    }
+}
+
+.imgg {
+    border-radius: 0;
+}
